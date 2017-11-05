@@ -22,7 +22,7 @@ SixthPlot=barplot(Ratio, beside = F, col = c("gray85", "chartreuse4"),
                   xlab="Year", ylab="Units sold",
                   legend.text = rownames(Ratio), args.legend = list(x= "topleft", bty = "n"), 
                   ylim = c(0,7000))
-text(SixthPlot,Ratio[1,]-650,labels=Ratio[1,],cex=1, col="goldenrod1")
+text(SixthPlot,Ratio[1,]-650,labels=Ratio[1,],cex=1, col="blue")
 text(SixthPlot,colSums(Ratio)-650,labels=Ratio[2,],cex=1, col="goldenrod1")
 
 
